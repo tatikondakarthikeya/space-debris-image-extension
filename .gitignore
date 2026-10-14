@@ -1,0 +1,34 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+env/
+myenv/
+
+# Secrets and local config
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# Datasets and generated artifacts
+data/*
+!data/README.md
+datasets/
+*.pt
+*.pth
+*.h5
+*.keras
+*.onnx
+*.engine
+*.pkl
+*.pickle
+*.csv
+*.parquet
+*.zip
+
+# Notebook checkpoints / outputs
+.ipynb_checkpoints/
+.DS_Store
